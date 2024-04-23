@@ -1,0 +1,45 @@
+body{
+    margin: 7em 7em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.imgActive{
+    width: 80em;
+    border-radius: 3em;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition: 1.5s ease;
+}
+
+.img{
+    width: 8em;
+    height: 48em;
+    border-radius: 3em;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition: 1.5s ease;
+}
+
+h3{
+    color: #ffff;
+    vertical-align:text-bottom;
+    position: absolute;
+    bottom: 1px;
+    left: 1em;
+    font-family: Sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.img h3{
+    display: none;
+}
