@@ -16,6 +16,6 @@ divs.forEach(element => {
             const h3 = element.querySelector('h3');
             setTimeout(function(){
                 h3.style.display = "block";
-            }, 1500);
+            }, 500);
         }
     });

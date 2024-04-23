@@ -1,5 +1,5 @@
 body{
-    margin: 7em 7em;
+    margin: 4em 7em 7em;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -16,7 +16,7 @@ body{
     background-position: center;
     position: relative;
     cursor: pointer;
-    transition: 1.5s ease;
+    transition: 0.8s ease-in-out;
 }
 
 .img{
@@ -26,7 +26,7 @@ body{
     background-position: center;
     position: relative;
     cursor: pointer;
-    transition: 1.5s ease;
+    transition: 0.8s ease-in-out;
 }
 
 h3{
@@ -43,3 +43,11 @@ h3{
 .img h3{
     display: none;
 }
+
+/* h1{
+    font-family: Sans-serif;
+    font-size: 3em;
+    margin: 0 0 10px;
+    font-weight: 200;
+    color:dimgrey;
+} */
