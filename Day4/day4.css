@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7d5ffc;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    width: 13%;
+    background-color: white;
+    font-size: 25px;
+    transition: 0.3s linear ;
+}
+.container input{
+    height: 100%;
+    width: 80%;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s linear ;
+}
+
+.container input:focus{
+    outline: none;
+}
+
+.container input::placeholder{
+    font-size: 18px;
+    line-height: 1.5;
+}
