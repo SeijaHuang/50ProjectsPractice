@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    transition: 1s ease;
+}
+
+.leftPart {
+    background-image: url("./ps.jpeg");
+    background-size: cover;  
+    position: relative;
+    flex: 50%;
+}
+
+.leftPart::before{
+    content: "";
+    background-color: rgba(87,84,237,0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.rightPart{
+    background-image: url("./xbox.jpeg");
+    background-size: cover;  
+    position: relative;
+    flex: 50%;
+
+}
+
+.rightPart::before{
+    content: "";
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    margin-top: 15rem;
+    margin-bottom: 4rem;
+    z-index: 1;
+}
+
+button{
+    width: 15rem;
+    height: 4.5rem;
+    border: 4px white solid;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.ps5:hover{
+    background-color: rgb(87,84,237);
+    border: 4px rgb(87,84,237) solid;
+
+}
+
+.xbox:hover{
+    background-color: #107b0f;
+    border: 4px #107b0f solid;
+}
